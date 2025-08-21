@@ -18,7 +18,10 @@ git push origin --delete test
 
 
 ## bundle 1 (Exercise 2)
-git add file
+git add filegit push origin ft/bundle-2
+git add services.html
+git push origin ft/bundle-2
+
 git stash save "message"
 git stash list 
 git stash pop stash@{index}
@@ -27,10 +30,9 @@ git reset --hard
 
 ## bundle 2 (Exercise 1)
 git branch -M ft/bundle-2
-git branch
-git add services.html
 git push origin ft/bundle-2
-git checkout maingit 
-git pull origin main
-git merge ft/bundle-2
-git push -u origin main
+git add services.html
+git commit -m " "
+create a pull request from the github repository and add a person as a collaborator and then add them as a reveiwer.
+
+## bundle 2 (Exercise 2)
