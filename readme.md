@@ -1,6 +1,7 @@
 # git exercises
 
 ## bundle 1 (Exercise 1)
+```bash
 git init
 git branch -M main
 git add .
@@ -15,7 +16,7 @@ git checkout dev
 git branch -M test
 git branch -d test
 git push origin --delete test
-
+```
 
 ## bundle 1 (Exercise 2)
 git add file
