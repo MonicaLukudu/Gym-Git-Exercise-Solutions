@@ -1,6 +1,8 @@
 # git exercises
 
-## bundle 1 (Exercise 1)
+## bundle 1 
+### (Exercise 1)
+```bush
 git init
 git branch -M main
 git add .
@@ -36,3 +38,18 @@ git commit -m " "
 create a pull request from the github repository and add a person as a collaborator and then add them as a reveiwer.
 
 ## bundle 2 (Exercise 2)
+git checkout main
+git branch -M ft/service-redesign
+git add service.html
+git commit -m ""
+git push origin ft/service-redesign
+Using the link provided in the terminal create a pull request in your GitHub.
+git checkout main 
+git add .
+git commit -m " "
+git push 
+git checkout ft/service-redesign
+git diff main
+git merge main
+git commit -m " "
+```
