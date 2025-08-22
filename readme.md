@@ -1,8 +1,7 @@
 # git exercises
 
-## bundle 1 
-### (Exercise 1)
-```bush
+## bundle 1 (Exercise 1)
+```bash
 git init
 git branch -M main
 git add .
@@ -17,27 +16,28 @@ git checkout dev
 git branch -M test
 git branch -d test
 git push origin --delete test
-
+```
 
 ## bundle 1 (Exercise 2)
-git add filegit push origin ft/bundle-2
-git add services.html
-git push origin ft/bundle-2
-
+```bash
+git add file
 git stash save "message"
 git stash list 
 git stash pop stash@{index}
 git commit -m " "
 git reset --hard 
-
+```
 ## bundle 2 (Exercise 1)
+```bash
 git branch -M ft/bundle-2
 git push origin ft/bundle-2
-git add services.html
-git commit -m " "
-create a pull request from the github repository and add a person as a collaborator and then add them as a reveiwer.
-
+git checkout maingit 
+git pull origin main
+git merge ft/bundle-2
+git push -u origin main
+```
 ## bundle 2 (Exercise 2)
+```bash
 git checkout main
 git branch -M ft/service-redesign
 git add service.html
